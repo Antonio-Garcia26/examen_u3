@@ -95,9 +95,7 @@ export default function LoginExam() {
   }
 
   return (
-    // Fondo sutil para que resalte el formulario
     <main className="flex min-h-screen items-center justify-center px-4 bg-[oklch(37.9%_0.146_265.522)]">
-      {/* Contenedor tipo tarjeta con sombra */}
       <section className="w-full max-w-md bg-[oklch(93.2%_0.032_255.585)] p-8 rounded-xl shadow-lg border border-gray-100">
         <div className="mb-6 text-center">
           <h1 className="text-2xl font-bold text-gray-900">Acceso escolar</h1>
@@ -158,7 +156,6 @@ export default function LoginExam() {
               </label>
             </div>
 
-            {/* Mensaje de error estilizado */}
             {error ? (
               <div className="p-3 bg-red-50 border border-red-200 text-red-600 text-sm rounded-md">
                 {error}
